@@ -2,6 +2,11 @@
 
 ## Usage
 
+.gitignore
+```
+node_modules/
+```
+
 ```js
 var dotgit = new DotGitignore();
 dotgit.ignore('node_modules/'); // true
